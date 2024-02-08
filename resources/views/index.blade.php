@@ -28,15 +28,14 @@ https://templatemo.com/tm-539-simple-house
 						<div class="col-md-6 col-12">
 							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" />
 							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Simple House</h1>
-								<h6 class="tm-site-description">new restaurant template</h6>
+								<h1 class="tm-site-title">Simple Safari</h1>
+								<h6 class="tm-site-description">Tour-Guides</h6>
 							</div>
 						</div>
 						<nav class="col-md-6 col-12 tm-nav">
 							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
-								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+								<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
+								<li class="tm-nav-li"><a href="login" class="tm-nav-link active">LogIn</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -46,7 +45,7 @@ https://templatemo.com/tm-539-simple-house
 
 		<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Welcome to Simple House</h2>
+				<h2 class="col-12 text-center tm-section-title">Welcome to Simple Safari</h2>
 				<p class="col-12 text-center">Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
 			</header>
 
@@ -314,6 +313,8 @@ https://templatemo.com/tm-539-simple-house
 				$(this).addClass("active");
 			});
 		});
+
+
 	</script>
 </body>
 </html>
