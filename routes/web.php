@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\Users;
 use Illuminate\Support\Facades\Route;
 
@@ -36,21 +37,6 @@ Route::get('/user', function (){
     return view('users');
 });
 
-Route::get('/order', function () {
-    $pizzas=[
-        ['type' =>'tosa', 'base'=>'problemas'],
-        ['type'=>'peper','base'=>'garlic'],
-        ['type'=>'tosa', 'base'=>'trepo'],
-    ];
+Route::get('/order', [OrderController::class,'index']);
 
-    return view('order',[
-        'pizzas'=>$pizzas,
-        'name'=>request('name'),
-        'age'=>request('age')
-
-    ]);
-});
-
-Route::get('/order/{id}', function ($id){
-    return view('detail',['id'=>$id]);
-});
+Route::get('/order/{id}',[OrderController::class,'items'] );

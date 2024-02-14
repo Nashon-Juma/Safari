@@ -38,23 +38,6 @@
                     </div>
                 </div>
             </div></div>
-            <p>{{ $name }}</p>
-            <p>{{ $age }}</p>
-
-            {{-- @for ($i=0 ; $i<count($pizzas) ; $i++)
-                <p>{{ $pizzas[$i]['type'] }}</p>
-            @endfor
-            @foreach ($pizzas as $piz)
-                <p>{{ $loop->index }}{{ $piz['type'] }}{{ $piz['base'] }}</p>
-                @if ($loop->last)
-                    <span>-laas</span>
-                @endif
-                    @if ($loop->first)
-                        <span>-foroor</span>
-                    @endif
-
-            @endforeach --}}
-
 
   <div id="wrappaa">
   <div id="inputs">
@@ -67,9 +50,9 @@
   Address:<input type="email" name="email" placeholder="1234 Nairobi, 00100">
  <br/>
     <p>Pizza toppings (Check all that apply)</p>
-    <input type='checkbox' checked>Cheese
-    <input type='checkbox'>Mushrooms
-    <input type='checkbox'>Pepperoni
+    <input type='checkbox' checked>lion
+    <input type='checkbox'>Leopard
+    <input type='checkbox'>Tiger
     <p>Comments:</br></p>
 	  <textarea></textarea>
 	  <p></p>
