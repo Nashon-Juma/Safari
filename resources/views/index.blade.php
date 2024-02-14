@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html>
+@extends('layouts.app')
 
-<head>
-	<meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Simple House Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
-	<link href="css/templatemo-style.css" rel="stylesheet" />
-</head>
-<!--
+<x-header/>
 
-Simple House
-
-https://templatemo.com/tm-539-simple-house
-
--->
-<body>
+@section('content')
 
 	<div class="container">
 	<!-- Top box -->
@@ -34,8 +20,11 @@ https://templatemo.com/tm-539-simple-house
 						</div>
 						<nav class="col-md-6 col-12 tm-nav">
 							<ul class="tm-nav-ul">
+                                <li class="tm-nav-li"><a href="/" class="tm-nav-link active">Home</a></li>
 								<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
-								<li class="tm-nav-li"><a href="login" class="tm-nav-link active">LogIn</a></li>
+								<li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
+                                <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
+                                <li class="tm-nav-li"><a href="user" class="tm-nav-link ">blog</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -291,12 +280,7 @@ https://templatemo.com/tm-539-simple-house
 				</div>
 			</div>
 		</main>
-
-		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2020 Simple House
-
-            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-		</footer>
+@endsection
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/parallax.min.js"></script>

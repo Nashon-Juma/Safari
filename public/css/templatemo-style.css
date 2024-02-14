@@ -4,15 +4,19 @@ Simple House
 
 https://templatemo.com/tm-539-simple-house
 
-*/
+*/@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise);
+
 
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
   padding: 0;
 }
+h1, h2{
+    font-family: 'Cabin Sketch';
+}
 
 a, button { transition: all 0.3s ease; }
-
+    
 /* Bootstrap grid system  */
 
 html {
@@ -53,7 +57,7 @@ html {
 .col-lg-6,
 .col-md-4,
 .col-md-6,
-.col-sm-6, 
+.col-sm-6,
 .col-12 {
   position: relative;
   width: 100%;
@@ -81,7 +85,7 @@ html {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  
+
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -95,13 +99,13 @@ html {
     flex: 0 0 25%;
     max-width: 25%;
   }
-  
+
   .col-lg-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-  
+
   .col-lg-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -195,12 +199,12 @@ html {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
-  background-color: #ccc;
+  background-color: #64440054;
   overflow-x: hidden;
 }
 
 .container {
-  background-color: white;
+  background-color: rgba(223, 191, 6, 0.13);
 }
 
 p, address {
@@ -376,11 +380,11 @@ p, address {
   .tm-section {
     max-width: 1120px;
   }
-  
+
   .tm-container-inner {
     max-width: 1120px;
   }
-  
+
   .tm-container-inner-2 {
     max-width: 900px;
   }
@@ -440,7 +444,7 @@ p, address {
 }
 
 .tm-description-figure {
-  text-align: center;  
+  text-align: center;
 }
 
 .tm-description-box {
@@ -594,7 +598,7 @@ p, address {
  .tm-history-img {
     max-width: 50%;
   }
-  
+
   .tm-history-inner {
     flex-direction: row;
   }
@@ -620,7 +624,7 @@ p, address {
  .tm-history-text {
     max-width: auto;
     margin: 0 auto 0 35px;
-  } 
+  }
 }
 
 /* Contact Page */
@@ -631,7 +635,7 @@ p, address {
 @media (min-width: 768px) {
  .tm-contact-form {
     max-width: 310px;
-  } 
+  }
 }
 
 .tm-d-flex {
@@ -721,7 +725,7 @@ address {
 @media (min-width: 768px) {
  .tm-address-box {
     max-width: 315px;
-  } 
+  }
 }
 
 .tm-contact-icon {
