@@ -50,3 +50,7 @@ Route::get('/order', function () {
 
     ]);
 });
+
+Route::get('/order/{id}', function ($id){
+    return view('detail',['id'=>$id]);
+});
