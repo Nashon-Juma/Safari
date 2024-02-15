@@ -12,11 +12,11 @@ class OrderController extends Controller
         // $pizzas=order::orderBy('name','desc')->get();
         // $pizzas=order::where('type','gino')->get();
         $pizzas=order::latest()->get();
-        return view('order',[
+        return view('zoo.order',[
             'pizzas'=>$pizzas
         ]);
     }
     public function show($id){
-        return view('detail',['id'=>$id]);
+        return view('zoo.show',['id'=>$id]);
     }
 }

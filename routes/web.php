@@ -22,10 +22,7 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/user', function (){
-    return view('users');
-});
 
 Route::get('/order', [OrderController::class,'index']);
 
-Route::get('/order/{id}',[OrderController::class,'show'] );
+Route::get('/show/{id}',[OrderController::class,'show'] );
