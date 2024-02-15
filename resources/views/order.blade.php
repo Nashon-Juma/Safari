@@ -38,16 +38,21 @@
                     </div>
                 </div>
             </div></div>
+            @foreach ($pizzas as $pizza)
+            <div><center>
+                {{ $pizza->name }}---{{ $pizza->type }}--{{ $pizza->base }}---{{ $pizza->year }}
 
+            </div>
+            @endforeach
   <div id="wrappaa">
   <div id="inputs">
   <div>
     <center>
-        <form name="input" action="#" method="post">
+        <form name="input" action="run" method="get">
   <h1>Order</h1>
-  First name: <input type="text" name="firstname" placeholder="Nashon"><br/>
-  Last name: <input type="text" name="lastname" placeholder="Juma"><br/>
-  Address:<input type="email" name="email" placeholder="1234 Nairobi, 00100">
+        First name: <input type="text" name="firstname" placeholder="Nashon"><br/>
+        Last name: <input type="text" name="lastname" placeholder="Juma"><br/>
+        Address:<input type="email" name="email" placeholder="1234 Nairobi, 00100">
  <br/>
     <p>Pizza toppings (Check all that apply)</p>
     <input type='checkbox' checked>lion
@@ -56,7 +61,7 @@
     <p>Comments:</br></p>
 	  <textarea></textarea>
 	  <p></p>
-  <input type="submit" value="Submit" href="#">
+  <input  type="submit" value="Submit" >
 </form>
 </div>
 </div>

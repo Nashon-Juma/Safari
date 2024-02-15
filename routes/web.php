@@ -28,4 +28,4 @@ Route::get('/user', function (){
 
 Route::get('/order', [OrderController::class,'index']);
 
-Route::get('/order/{id}',[OrderController::class,'items'] );
+Route::get('/order/{id}',[OrderController::class,'show'] );

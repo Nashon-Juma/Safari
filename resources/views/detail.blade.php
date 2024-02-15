@@ -2,10 +2,9 @@
 
 <html>
     <head>
-        <x-header/>
 @section('content')
         <style>
-        @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise);
+            @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise);
         body{
         font-family:Patrick Hand SC;
         font-size:30px;
@@ -32,8 +31,10 @@
         font-weight:bold;
         }
         </style>
+
     </head>
 <body>
+
     <div class="container">
             <div class="placeholder">
                 <div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
