@@ -24,7 +24,7 @@
 								<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
 								<li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
                                 <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
-                                <li class="tm-nav-li"><a href="show" class="tm-nav-link ">blog</a></li>
+                                <li class="tm-nav-li"><a href="create" class="tm-nav-link ">Create</a></li>
 							</ul>
 						</nav>
 					</div>

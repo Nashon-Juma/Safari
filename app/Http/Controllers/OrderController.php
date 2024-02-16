@@ -19,4 +19,7 @@ class OrderController extends Controller
     public function show($id){
         return view('zoo.show',['id'=>$id]);
     }
+    public function create(){
+        return view('zoo.create');
+    }
 }

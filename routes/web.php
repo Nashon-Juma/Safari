@@ -5,24 +5,30 @@ use App\Http\Controllers\Users;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/', function () {return view('index');
 });
-Route::get('/index', function () {
-    return view('index');
+Route::get('/index', function () {return view('index');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/login', function () {return view('login');
 });
 
 Route::get('/users',[Users::class,'nez']);
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/contact', function () {return view('contact');
 });
 
 
-Route::get('/order', [OrderController::class,'index']);
+Route::get('/order', [OrderController::class,'index'
+]);
 
-Route::get('/show/{id}',[OrderController::class,'show'] );
+Route::get('/show/{id}',[OrderController::class,'show'
+]);
+
+
+Route::get('/create',[OrderController::class,'create'
+]);
+
+
+
+

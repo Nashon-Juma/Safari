@@ -95,7 +95,7 @@ https://templatemo.com/tm-539-simple-house
 								<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
 								<li class="tm-nav-li"><a href="login" class="tm-nav-link active">LogIn</a></li>
                                 <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
-                                <li class="tm-nav-li"><a href="user" class="tm-nav-link ">blog</a></li>
+                                <li class="tm-nav-li"><a href="create" class="tm-nav-link ">Create</a></li>
 							</ul>
 						</nav>
 					</div>
