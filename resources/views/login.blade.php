@@ -73,36 +73,18 @@ Simple House
 https://templatemo.com/tm-539-simple-house
 
 -->
-<body style="body{background-color: #000;}">
+<body>
 
-	<div class="container">
-	<!-- Top box -->
-		<!-- Logo & Site Name -->
-		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" style="background-image:url('img/pp.jpg');background-size: cover;">
-				<div class="tm-header">
-					<div class="row tm-header-inner">
-						<div class="col-md-6 col-12">
-							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" />
-							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Simple Safari</h1>
-								<h6 class="tm-site-description">Tour-Guides</h6>
-							</div>
-						</div>
-						<nav class="col-md-6 col-12 tm-nav">
-							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="/" class="tm-nav-link ">Home</a></li>
-								<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
-								<li class="tm-nav-li"><a href="login" class="tm-nav-link active">LogIn</a></li>
-                                <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
-                                <li class="tm-nav-li"><a href="user" class="tm-nav-link ">blog</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-    </div>
+    <div class="tm-site-text-box">
+        <h1 class="tm-site-title">Simple Safari</h1>
+            <h6 class="tm-site-description">Tour-Guides</h6>
+        </div>
+            <ul class="tm-nav-ul">
+                <li class="tm-nav-li"><a href="/" class="tm-nav-link active">Home</a></li>
+                <li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
+                <li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
+                <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
+            </ul>
 
     <div class="cotn_principal"  >
         <div class="cont_centrar">

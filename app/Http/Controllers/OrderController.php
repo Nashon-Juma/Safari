@@ -2,25 +2,24 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\order;
 use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
     public function index(){
-        $pizzas=[
-            ['type' =>'tosa', 'base'=>'problemas'],
-            ['type'=>'peper','base'=>'garlic'],
-            ['type'=>'tosa', 'base'=>'trepo'],
-        ];
-
-        return view('order',[
-            'pizzas'=>$pizzas,
-            'name'=>request('name'),
-            'age'=>request('age')
-
+        // $pizzas=order::all();
+        // $pizzas=order::orderBy('name','desc')->get();
+        // $pizzas=order::where('type','gino')->get();
+        $pizzas=order::latest()->get();
+        return view('pizza.order',[
+            'pizzas'=>$pizzas
         ]);
     }
-    public function items($id){
-        return view('detail',['id'=>$id]);
+    public function show($id){
+        return view('pizza.show',['id'=>$id]);
+    }
+    public function create(){
+        return view('pizza.create');
     }
 }

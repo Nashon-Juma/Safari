@@ -2,6 +2,7 @@
 body{
   font-family:Patrick Hand SC;
   font-size:30px;
+
 }
 h1{
   font-family:Cabin Sketch;
@@ -24,4 +25,14 @@ input{
   font-size:17px;
   font-weight:bold;
 }
- 
+
+.add-new-pizza {
+    color: #fff;
+    background-color: #0074D9;
+    text-transform: uppercase;
+    /* padding: .75rem 3rem; */
+    cursor: pointer;
+    border-radius: 5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
