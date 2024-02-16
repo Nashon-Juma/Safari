@@ -2,33 +2,17 @@
 <body>
 
 	<div class="container">
-	<!-- Top box -->
-		<!-- Logo & Site Name -->
-		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
-				<div class="tm-header">
-					<div class="row tm-header-inner">
-						<div class="col-md-6 col-12">
-							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" />
-							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Simple Safari</h1>
-								<h6 class="tm-site-description">Tour-Guides</h6>
-							</div>
-						</div>
-						<nav class="col-md-6 col-12 tm-nav">
-							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="/" class="tm-nav-link ">Home</a></li>
-								<li class="tm-nav-li"><a href="contact" class="tm-nav-link active">Contact</a></li>
-								<li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
-                                <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
-                                <li class="tm-nav-li"><a href="create" class="tm-nav-link ">Create</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
 
+<div class="tm-site-text-box">
+    <h1 class="tm-site-title">Simple Safari</h1>
+		<h6 class="tm-site-description">Tour-Guides</h6>
+    </div>
+		<ul class="tm-nav-ul">
+            <li class="tm-nav-li"><a href="/" class="tm-nav-link active">Home</a></li>
+			<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
+			<li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
+            <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
+		</ul>
 		<main>
 			<header class="row tm-welcome-section">
 				<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
@@ -94,36 +78,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="tm-container-inner-2 tm-info-section">
-				<div class="row">
-					<!-- FAQ -->
-					<div class="col-12 tm-faq">
-						<h2 class="text-center tm-section-title">FAQs</h2>
-						<p class="text-center">This section comes with Accordion tabs for different questions and answers about Simple House HTML CSS template. Thank you. #666</p>
-						<div class="tm-accordion">
-							<button class="accordion">1. Fusce eu lorem et dui #09C maximus varius?</button>
-							<div class="panel">
-							  <p>#666 Duis blandit purus vel nenenatis rutrum. Pellentesque pellentesque tindicunt lorem, ac egestas massa sollicitudin vel. Nam scelerisque vulputate quam mollis pretium. Morbi condimentum volutpat.</p>
-							</div>
-
-							<button class="accordion">2. Vestibulum #999 ante ipsum primis in faucibus orci?</button>
-							<div class="panel">
-							  <p>Mauris euismod odio at commodo rhoncus. Maecenas nec interdum purus, sed auctor est. Sed eleifend urna nec diam consectetur, a aliquet turpis facilisis. Integer est sapien, sagittis vel massa vel, interdum euismod erat. Aenean sollicitudin nisi neque, efficitur posuere urna rutrum porta.</p>
-							</div>
-
-							<button class="accordion">3. Can I redistribute this template as a ZIP file?</button>
-							<div class="panel">
-							  <p>Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a href="https://templatemo.com/contact">contact TemplateMo</a> for additional permissions about our templates. Thank you.</p>
-							</div>
-
-							<button class="accordion">4. Ut ac erat sit amet neque efficitur faucibus et in lectus?</button>
-							<div class="panel">
-								<p>Vivamus viverra pretium ultricies. Praesent feugiat, sapien vitae blandit efficitur, sem nulla venenatis nunc, vel maximus ligula sem a sem. Pellentesque ligula ex, facilisis ac libero a, blandit ullamcorper enim.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 		</main>
 
 		<footer class="tm-footer text-center">

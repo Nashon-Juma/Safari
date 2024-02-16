@@ -12,14 +12,14 @@ class OrderController extends Controller
         // $pizzas=order::orderBy('name','desc')->get();
         // $pizzas=order::where('type','gino')->get();
         $pizzas=order::latest()->get();
-        return view('zoo.order',[
+        return view('pizza.order',[
             'pizzas'=>$pizzas
         ]);
     }
     public function show($id){
-        return view('zoo.show',['id'=>$id]);
+        return view('pizza.show',['id'=>$id]);
     }
     public function create(){
-        return view('zoo.create');
+        return view('pizza.create');
     }
 }

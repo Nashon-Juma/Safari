@@ -115,6 +115,74 @@ input:focus {
 }
 }
 
+
+
+
+.tm-btn {
+  display: inline-block;
+  font-size: 1rem;
+  width: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.tm-btn-default {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #626364;
+}
+
+.tm-btn-default:hover,
+.tm-btn-default:focus {
+  color: white;
+  background-color: #98999A;
+}
+
+.tm-btn-primary {
+  background-color: #2D99CC;
+  color: white;
+}
+
+.tm-btn-primary:hover,
+.tm-btn-primary:focus {
+  background-color: #1b6f96;
+}
+
+.tm-btn-success {
+  background-color: #319966;
+  color: white;
+}
+
+.tm-btn-success:hover,
+.tm-btn-success:focus {
+  background-color: #1d6e46;
+}
+
+.tm-btn-danger {
+  background-color: #993332;
+  color: white;
+}
+
+.tm-btn-danger:hover,
+.tm-btn-danger:focus {
+  background-color: #752423;
+}
+
+.tm-mb-45 {
+  margin-bottom: 45px;
+}
+
+.tm-mb-p {
+    margin-bottom: 20px;
+}
+
+.tm-text-success {
+  color: #319966;
+}
+
+
 /*
 INPUT number reset arrows.
 */

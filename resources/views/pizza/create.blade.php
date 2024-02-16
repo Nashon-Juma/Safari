@@ -1,3 +1,5 @@
+<x-header/>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
     <title>Robertas Dunčia - Pizzeria task</title>
 </head>
-<x-header/>
 @extends('layouts/app')
 
 @section('content')
@@ -26,7 +27,6 @@
 			<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
 			<li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
             <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
-            <li class="tm-nav-li"><a href="create" class="tm-nav-link ">Create</a></li>
 		</ul>
 
     <section class="main">
@@ -45,25 +45,23 @@
                     <input type="number" name="new-pizza__price" class="new-pizza__price" placeholder="Positive number only" step="0.01" min="0">
                 </div>
                 <div>
-                    <label for="new-pizza__heat" class="label-content">Select pizza heat level:</label>
-                    <select name="new-pizza__heat" class="new-pizza__heat">
-                        <option value="0">Regular</option>
-                        <option value="1">Bit spicy</option>
-                        <option value="2">Spicy</option>
-                        <option value="3">Real Mexican</option>
+                    <label for="new-pizza__toppings" class="label-content">Select pizza topping:</label>
+                    <select name="new-pizza__toppings" class="new-pizza__toppings">
+                        <option value="0">cow</option>
+                        <option value="1">hen</option>
+                        <option value="2">pig</option>
+                        <option value="3">maize</option>
+                        <option value="3">meat</option>
                     </select>
-                </div>
-                <div>
-                    <label for="new-pizza__toppings" class="label-content">Enter pizza toppings*:</label>
-                    <input type="text" name="new-pizza__toppings" class="new-pizza__toppings" placeholder="Separate by a comma">
                 </div>
                 <div>
                     <label for="new-pizza__photo" class="label-content">Select pizza photo:</label>
                     <select name="new-pizza__photo" class="new-pizza__photo">
-                        <option value="0">Default photo</option>
+                        <option value="0">pig photo</option>
                         <option value="1">Salami thick</option>
                         <option value="2">Chicken cheesy</option>
-                        <option value="3">Slice photo</option>
+                        <option value="3">cow photo</option>
+                        <option value="4">Maize photo</option>
                     </select>
                 </div>
 
@@ -81,7 +79,8 @@
             <div class="sort-main">
                 <p class="sort-option sort-name">Sort by name &#9660;</p>
                 <p class="sort-option sort-price">Sort by price &#9660;</p>
-                <p class="sort-option sort-heat">Sort by heat &#9660;</p>
+                <p class="sort-option sort-heat">Sort by topping &#9660;</p>
+                <p class="sort-option sort-heat">Sort by date &#9660;</p>
             </div>
             <div class="show">
             </div>

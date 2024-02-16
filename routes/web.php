@@ -22,11 +22,10 @@ Route::get('/contact', function () {return view('contact');
 Route::get('/order', [OrderController::class,'index'
 ]);
 
-Route::get('/show/{id}',[OrderController::class,'show'
+Route::get('order/create',[OrderController::class,'create'
 ]);
 
-
-Route::get('/create',[OrderController::class,'create'
+Route::get('/order/{id}',[OrderController::class,'show'
 ]);
 
 
