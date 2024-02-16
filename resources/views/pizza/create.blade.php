@@ -11,12 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
-    <title>Robertas Dunčia - Pizzeria task</title>
+    <title>create pizza</title>
 </head>
+
 @extends('layouts/app')
 
 @section('content')
 
+<x-header>
 
 <div class="tm-site-text-box">
     <h1 class="tm-site-title">Simple Safari</h1>
