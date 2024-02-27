@@ -19,8 +19,7 @@ Empty array which will be updated with pizzas.
 */
 let sessionStorageEntryArray = [];
 
-/*
-Function show() is initiated on page loading to check if there are any pizzas.
+/*show() is initiated on page loading to check if there are any pizzas.
 */
 show();
 
