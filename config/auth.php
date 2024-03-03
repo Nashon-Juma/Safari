@@ -45,7 +45,7 @@ return [
     /*
     |--------------------------------------------------------------------------
     | User Providers
-    |--------------------------------------------------------------------------
+    |----------------------------------------------------------------------
     |
     | All authentication drivers have a user provider. This defines how the
     | users are actually retrieved out of your database or other storage
