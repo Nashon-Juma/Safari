@@ -45,7 +45,7 @@
 						<div class="tm-address-box">
 							<h4 class="tm-info-title tm-text-success">Our Address</h4>
 							<address>
-								180 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus 10550
+								180 Orci varius natoque penatibus et magnis dis parturient montes
 							</address>
 							<a href="tel:080-090-0110" class="tm-contact-link">
 								<i class="fas fa-phone tm-contact-icon"></i>080-090-0110
