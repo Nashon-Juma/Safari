@@ -5,7 +5,7 @@ return [
     /*
     |--------------------------------------------------------------------------
     | Default Mailer
-    |--------------------------------------------------------------------------
+    |----------------------------------------------------------------
     |
     | This option controls the default mailer that is used to send any email
     | messages sent by your application. Alternative mailers may be setup
