@@ -20,7 +20,7 @@ return [
     /*
     |--------------------------------------------------------------------------
     | Compiled View Path
-    |--------------------------------------------------------------------------
+    |-----------------------------------------------------------------
     |
     | This option determines where all the compiled Blade templates will be
     | stored for your application. Typically, this is within the storage
