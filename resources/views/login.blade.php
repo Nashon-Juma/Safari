@@ -137,7 +137,7 @@ https://templatemo.com/tm-539-simple-house
         <input type="text" placeholder="User" />
         <input type="password" placeholder="Password" />
         <input type="password" placeholder="Confirm Password" />
-        <button class="btn_sign_up" onclick="change_to_sign_up()">SIGN UP</button>
+        <button class="btn_sign_up" onclick="change_to_sign_up()">SIGN  UP</button>
 
           </div>
 
