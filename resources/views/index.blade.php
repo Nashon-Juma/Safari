@@ -2,6 +2,7 @@
 
 <x-header/>
 
+
 @section('content')
 
 <div class="tm-site-text-box">
