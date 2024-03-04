@@ -9,7 +9,7 @@
     </div>
 		<ul class="tm-nav-ul">
             <li class="tm-nav-li"><a href="/" class="tm-nav-link active">Home</a></li>
-			<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contact</a></li>
+			<li class="tm-nav-li"><a href="contact" class="tm-nav-link">Contacts</a></li>
 			<li class="tm-nav-li"><a href="login" class="tm-nav-link ">LogIn</a></li>
             <li class="tm-nav-li"><a href="order" class="tm-nav-link ">Order</a></li>
 		</ul>
