@@ -24,7 +24,7 @@
 			<div class="tm-paging-links">
 				<nav>
 					<ul>
-						<li class="tm-paging-item"><a href="#" class="tm-paging-link active">Pizza</a></li>
+						<li class="tm-paging-item"><a href="#" class="tm-paging-link active">Pizzaz</a></li>
 						<li class="tm-paging-item"><a href="#" class="tm-paging-link">Salad</a></li>
 						<li class="tm-paging-item"><a href="#" class="tm-paging-link">Noodle</a></li>
 					</ul>
