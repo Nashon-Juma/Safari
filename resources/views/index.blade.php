@@ -31,7 +31,7 @@
 				</nav>
 			</div>
 
-			<!-- Gallery -->
+			<!-- Gallery.. -->
 			<div class="row tm-gallery">
 				<!-- gallery page 1 -->
 				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
