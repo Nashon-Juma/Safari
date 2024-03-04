@@ -12,7 +12,7 @@
     <link href="css/login.css" rel="stylesheet" />
 
     <script>
-        /* ------------------------------------ Click on login and Sign Up to  changue and view the effect
+        /* --------------------------------- Click on login and Sign Up to  changue and view the effect
 ---------------------------------------
 */
 
