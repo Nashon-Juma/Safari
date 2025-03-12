@@ -18,7 +18,6 @@ Route::get('/users',[Users::class,'nez']);
 Route::get('/contact', function () {return view('contact');
 });
 
-
 Route::get('/order', [OrderController::class,'index'
 ]);
 
