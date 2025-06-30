@@ -10,8 +10,8 @@ class OrderController extends Controller
     public function index(){
         // $pizzas=order::all();
         // $pizzas=order::orderBy('name','desc')->get();
-        // $pizzas=order::where('type','gino')->get();
-        $pizzas=order::latest()->get();
+         $pizzas=order::where('type','gino')->get();
+        // $pizzas=order::latest()->get();
         return view('pizza.order',[
             'pizzas'=>$pizzas
         ]);
